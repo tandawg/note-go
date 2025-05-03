@@ -1,17 +1,15 @@
-# Notes API (Pet Project)
+# # NoteGo (Pet Project)
 
-This is a simple Go pet project to practice basic HTTP routing and API structure.
+Простое приложение на Go для работы с заметками:
 
-## Features
+- REST API (`GET`, `POST`, `DELETE`)
+- Сохранение в файл `data.json`
+- CLI-команды:
+  - `add --title --text`
+  - `list`
+  - `delete --id`
 
-- GET /notes — placeholder handler for now
-- Easy to expand with more functionality
-- Good for beginner practice
-
-## Run
+## Запуск сервера
 
 ```bash
 go run main.go
-```
-
-Then open http://localhost:8080/notes
